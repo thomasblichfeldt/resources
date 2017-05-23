@@ -72,7 +72,7 @@ def humidityAvarage():
         count = count + 1
     avr = avr / 100
     print (avr)
-    if avr < 180:
+    if avr < 10:
         getWater()
     else:
         happy()
